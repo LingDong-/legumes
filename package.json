@@ -7,7 +7,7 @@
     "build:lib": "tsup src/main.ts --format iife --global-name legumes && (cat dist/main.global.js ; echo \";(typeof module == 'object')?(module.exports=legumes):0;\") > dist/legumes.js && rm dist/main.global.js",
     "build:min": "tsup src/main.ts --minify --format iife --global-name legumes && (cat dist/main.global.js ; echo \";(typeof module == 'object')?(module.exports=legumes):0;\") > dist/legumes.min.js && rm dist/main.global.js",
     "build:cli": "tsup src/cli.ts && sed -i '' \"s/sed-auto-replace-date-yyyy-mm-dd/$(date '+%Y-%m-%d')/g\" dist/cli.js && mv dist/cli.js legc && chmod +x legc",
-    "build:ide": "mkdir site; npm run build:lib && time node tools/make_editor.js",
+    "build:ide": "mkdir site; npm run build:lib && node tools/make_editor.js",
     "build:doc": "npx typedoc --out _docs --entryPoints src/main.ts --hideInPageTOC true --hideBreadcrumbs true; rm _docs/README.md; mv _docs/modules.md _docs/a.md; npx concat-md --decrease-title-levels _docs > API.md; rm -rf _docs; node tools/doc_const.js;",
     "build": "npm run build:lib && npm run build:cli",
     "samples": "npm run build:cli && cd samples && make FMT=svg EXT=svg && make FMT=svg-anim EXT=anim.svg && make FMT=svg-hand EXT=hand.svg; cd ../ && node tools/index_samples.js",
