@@ -1,0 +1,1755 @@
+title Berceuse.
+composer 'F. Chopin, Op. 57'
+tempo Andante.
+instruments { 'Piano' - 'Piano'
+
+measure
+  staff G bbbbb 6/8
+    rest d1 |p
+  end
+  staff F bbbbb 6/8
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $1-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $1-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $1-3
+      note A4 d8 ]ped    $1-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $1-1 $1-2
+tie  $1-3 $1-4
+
+measure
+  staff
+    rest d1
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $2-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $2-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $2-3
+      note A4 d8 ]ped    $2-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $2-1 $2-2
+tie  $2-3 $2-4
+
+
+measure
+  staff
+    note F6 d4. [dolce   $3-5
+    note E6 d8
+    note A6
+    note F6
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $3-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $3-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $3-3
+      note A4 d8 ]ped    $3-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $3-1 $3-2
+tie  $3-3 $3-4
+
+measure
+  staff
+    note E6 d8
+    note F6
+    note D6
+    note B5
+    note C6
+    note E6  $4-5
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $4-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $4-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $4-3
+      note A4 d8 ]ped    $4-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $4-1 $4-2
+tie  $4-3 $4-4
+
+
+
+measure
+  staff
+    note A5 d8  $5-5
+    note D6 d4
+    note E6 d8
+    note G6
+    note B6
+    
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $5-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $5-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $5-3
+      note A4 d8 ]ped    $5-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $5-1 $5-2
+tie  $5-3 $5-4
+slur $4-5 $5-5
+
+
+measure
+  staff
+    voice
+      rest d4 -
+      rest d8 -
+      rest d4 -
+      note E6 d8 $6-5
+    end
+    voice
+      note A6 d8
+      note G6
+      note F6
+      note E6
+      note D6
+      note C6    $6-6
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $6-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $6-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $6-3
+      note A4 d8 ]ped    $6-4
+      note A4 d4 ]*
+    end
+  end
+end
+  
+slur $6-1 $6-2
+tie  $6-3 $6-4
+
+slur $3-5 $6-5
+
+
+measure
+  staff
+    voice
+      note F6 d4. a-
+      note E6 d8
+      note A6
+      note F6
+    end
+    voice
+      note D6 d8
+      note C6
+      note B5      $7-5
+      note C6      $7-6
+      note B5
+      note A5      $7-7
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $7-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $7-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $7-3
+      note A4 d8 ]ped    $7-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $7-1 $7-2
+tie  $7-3 $7-4
+slur $6-6 $7-5
+slur $7-6 $7-7
+
+
+measure
+  staff
+    voice
+      note E6 d8
+      note F6
+      note D6
+      note B5
+      note C6
+      note E6  $8-9
+    end
+    voice
+      note B5 $8-5
+      note A5
+      note F5 $8-7
+      note G5
+      note F5 $8-6
+      note E5 $8-8
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $8-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $8-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $8-3
+      note A4 d8 ]ped    $8-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $8-1 $8-2
+tie  $8-3 $8-4
+slur $8-5 $8-6
+cresc 0 1 $8-7 $8-8
+
+
+
+measure
+  staff
+    voice
+      note A5 d8   $9-5
+      note D6 d4   $9-6
+      note E6 d8
+      note G6      $9-7
+      note B6
+    end
+    voice
+      note G5 d8
+      note F5     $9-8
+      note B5     $9-9
+      note C6
+      note B5
+      note A5     $9-10
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $9-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $9-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $9-3
+      note A4 d8 ]ped    $9-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $9-1 $9-2
+tie  $9-3 $9-4
+
+slur $9-9 $9-10
+
+slur $8-9 $9-5
+slur $8-8 $9-8
+
+cresc 1 0 $9-6 $9-7
+
+
+
+measure
+  staff
+    voice
+      note A6 d8 [dolcissimo
+      note D7
+      note B6
+      note G6
+      note C7
+      note A6
+    end
+    voice
+      note F6 d8 $10-5
+      note C6
+      note D6    $10-6
+      note E6    $10-7
+      note B5
+      note C6    $10-8
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $10-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $10-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $10-3
+      note A4 d8 ]ped    $10-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+
+slur $10-1 $10-2
+tie  $10-3 $10-4
+
+slur $10-5 $10-6
+slur $10-7 $10-8
+
+
+measure
+  staff
+    voice
+      note F6 d8 a- $11-9
+      note B6
+      note G6
+      note E6
+      note A6
+      note F6
+    end
+    voice
+      note D6 d8 $11-5
+      note A5
+      note B5    $11-6
+      note C6    $11-7
+      note G5
+      note A5    $11-8
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $11-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $11-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $11-3
+      note A4 d8 ]ped    $11-4
+      note A4 d4 ]*
+    end
+  end
+end
+  
+slur $11-1 $11-2
+tie  $11-3 $11-4
+
+slur $11-5 $11-6
+slur $11-7 $11-8
+
+slur $6-5 $11-9
+
+
+measure
+  staff
+    voice
+      note E6 d8
+      note F6    
+      note D6    |'poco cresc.'
+      note B5   
+      note C6   
+      note E6    $12-10
+    end
+    voice
+      note B5 d8 $12-5
+      note F5    
+      note A5    $12-6
+      note A5    $12-7
+      note G5 ~  $12-8
+      note G5 b  $12-9
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $12-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      note E5 d4.      $12-2
+    end
+    voice
+      rest d8 -
+      note A4 d4         $12-3
+      note A4 d8         $12-4
+      note A4 d4
+    end
+  end
+end
+
+slur $12-1 $12-2
+tie  $12-3 $12-4
+tie  $12-6 $12-7
+slur $12-5 $12-8
+
+measure
+  staff
+    voice
+      note A5 d8     $13-5
+      note D6 d4
+      note E6 d8
+      note G6
+      note B6
+    end
+    voice
+      note G5 d16    $13-9
+      note F5 d8
+      note E5 d16
+      note D5        $13-10
+      note D6        $13-6
+      note D6        $13-7
+      note C6 d8
+      note B5 d16
+      note A5        $13-8
+      note G6        $13-11
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $13-1
+      note F5 d8 ]*
+      chord
+        note E5 d4.      $13-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $13-3
+      note A4 d8 ]ped    $13-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $13-1 $13-2
+tie  $13-3 $13-4
+
+tie $13-6 $13-7
+slur $13-6 $13-8
+
+slur $12-10 $13-5
+tie  $12-9 $13-9
+slur $12-9 $13-10
+
+
+measure
+  staff
+    voice
+      note A6 d8
+      note D7
+      note B6
+      note G6
+      chord
+        note C7 
+        note E6
+      end
+      chord
+        note A6 $14-6
+        note E6 ~
+      end
+    end
+    voice
+      note G6 d16  $14-5
+      note F6 d8
+      note E6 d16 |dim.
+      note F6
+      note D6     $14-8
+      note D6     $14-9
+      note D6 ~
+      note E6
+      note A5
+      note E6
+      note A5    $14-7
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $14-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $14-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $14-3
+      note A4 d8 ]ped    $14-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+
+slur $14-1 $14-2
+tie  $14-3 $14-4
+
+tie  $13-11 $14-5
+slur $13-11 $14-7
+tie  $14-8 $14-9
+
+slur $11-9 $14-6
+
+measure
+  staff
+    voice
+      grace
+        chord
+          note F6 d8 $15-g1
+          note A6 d8
+        end
+      end
+      note F6 d4.    $15-n1
+      grace
+        chord
+          note E6 d8 $15-g2
+          note A6 d8
+        end
+      end
+      note E6 d8     $15-n2
+      grace
+        note A6 d8   $15-g3
+      end
+      note A6 d8     $15-n3
+      grace
+        chord
+          note F6 d8 $15-g4
+          note A6
+        end
+      end
+      note F6 d8      $15-n4
+    end
+    voice
+      note A5 d4. a-  $15-v1 [leggiero
+      note A5 d8 a-   $15-v2
+      note A5 d8 a-   $15-v3
+      note A5 d8 a-   $15-v4
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $15-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $15-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $15-3
+      note A4 d8 ]ped    $15-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+tie $15-g1 $15-n1
+tie $15-g2 $15-n2
+tie $15-g3 $15-n3
+tie $15-g4 $15-n4
+
+slur $15-g1 $15-v1
+slur $15-g2 $15-v2
+slur $15-g3 $15-v3
+slur $15-g4 $15-v4
+
+
+slur $15-1 $15-2
+tie  $15-3 $15-4
+
+
+
+
+measure
+  staff
+    voice
+      grace
+        chord
+          note E6 d8 $16-g1
+          note A6 d8
+        end
+      end
+      note E6 d8    $16-n1
+      grace
+        chord
+          note F6 d8 $16-g2
+          note A6 d8
+        end
+      end
+      note F6 d8     $16-n2
+      grace
+        chord
+          note D6 d8   $16-g3
+          note A6
+        end
+      end
+      note D6 d8     $16-n3
+      grace
+        chord
+          note B5 d8 $16-g4
+          note A6
+        end
+      end
+      note B5 d8      $16-n4
+      grace
+        chord
+          note C6 d8 $16-g5
+          note A6
+        end
+      end
+      note C6 d8   $16-n5
+      grace
+        chord
+          note E6 d8 $16-g6
+          note A6
+        end
+      end
+      note E6 d8   $16-n6
+    end
+    voice
+      note A5 d8 a-   $16-v1
+      note A5 d8 a-   $16-v2
+      note A5 d8 a-   $16-v3
+      note A5 d8 a-   $16-v4
+      note A5 d8 a-   $16-v5
+      note A5 d8 a-   $16-v6
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $16-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $16-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $16-3
+      note A4 d8 ]ped    $16-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+tie $16-g1 $16-n1
+tie $16-g2 $16-n2
+tie $16-g3 $16-n3
+tie $16-g4 $16-n4
+tie $16-g5 $16-n5
+tie $16-g6 $16-n6
+
+slur $16-g1 $16-v1
+slur $16-g2 $16-v2
+slur $16-g3 $16-v3
+slur $16-g4 $16-v4
+slur $16-g5 $16-v5
+slur $16-g6 $16-v6
+
+
+slur $16-1 $16-2
+tie  $16-3 $16-4
+
+
+
+
+
+
+
+
+
+measure
+  staff
+    voice
+      grace
+        note A6 d8 $17-g1
+      end
+      note A5 d8    $17-n1
+      grace
+        chord
+          note C6 d8 $17-g2
+          note A6 d8
+        end
+      end
+      note C6 d8     $17-n2
+      grace
+        chord
+          note D6 d8   $17-g3
+          note A6
+        end
+      end
+      note D6 d8     $17-n3
+      grace
+        chord
+          note D6 ~ d8 $17-g4
+          note A6
+        end
+      end
+      note D6 d8      $17-n4
+      grace
+        chord
+          note E6 d8 $17-g5
+          note A6
+        end
+      end
+      note E6 d8   $17-n5
+      grace
+        chord
+          note E6 ~ d8 $17-g6
+          note A6
+        end
+      end
+      note E6 d8   $17-n6
+    end
+    voice
+      note A5 d8 a-   $17-v1
+      note A5 d8 a-   $17-v2
+      note A5 d8 a-   $17-v3
+      note A5 d8    $17-v4 [segue
+      note A5 d8    $17-v5
+      note A5 d8    $17-v6
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $17-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $17-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $17-3
+      note A4 d8 ]ped    $17-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+; tie $17-g1 $17-n1 ;
+tie $17-g2 $17-n2
+tie $17-g3 $17-n3
+tie $17-g4 $17-n4
+tie $17-g5 $17-n5
+tie $17-g6 $17-n6
+
+slur $17-g1 $17-v1
+slur $17-g2 $17-v2
+slur $17-g3 $17-v3
+slur $17-g4 $17-v4
+slur $17-g5 $17-v5
+slur $17-g6 $17-v6
+
+
+slur $17-1 $17-2
+tie  $17-3 $17-4
+
+
+
+
+
+
+
+measure
+  staff
+    voice
+      grace
+        chord
+          note A6 d8
+          note F6 d8 $18-g1
+        end
+      end
+      note F6 d8    $18-n1
+      grace
+        chord
+          note B6 d8 $18-g2
+          note F6 d8
+        end
+      end
+      note B6 d8     $18-n2
+      grace
+        chord
+          note F6 d8   $18-g3
+          note G6 ~
+        end
+      end
+      note F6 d8     $18-n3
+      grace
+        chord
+          note A6 d8 $18-g4
+          note G6 b
+        end
+      end
+      note A6 d8      $18-n4
+      grace
+        chord
+          note B6 d8 $18-g5
+          note G6
+        end
+      end
+      note B6 d8   $18-n5
+      grace
+        chord
+          note G6 d8 
+          note G6 ~ $18-g6
+        end
+      end
+      note G6 d8   $18-n6
+    end
+    voice
+      note A5 d8    $18-v1
+      note A5 d8    $18-v2 ['poco rit.'
+      note A5 d8    $18-v3 
+      note A5 d8    $18-v4
+      note A5 d8    $18-v5
+      note A5 d8    $18-v6
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $18-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $18-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $18-3
+      note A4 d8 ]ped    $18-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+tie $18-g1 $18-n1
+tie $18-g2 $18-n2
+tie $18-g3 $18-n3
+tie $18-g4 $18-n4
+tie $18-g5 $18-n5
+tie $18-g6 $18-n6
+
+slur $18-g1 $18-v1
+slur $18-g2 $18-v2
+slur $18-g3 $18-v3
+slur $18-g4 $18-v4
+slur $18-g5 $18-v5
+slur $18-g6 $18-v6
+
+
+slur $18-1 $18-2
+tie  $18-3 $18-4
+
+cresc 0 1 $17-v4 $18-v6
+
+slur $15-n1 $18-n6
+
+
+measure
+  staff
+    grace
+      note F6 d8
+    end
+    note A6 d4 at |pf   $19-13
+    note G6 ~ d32
+    note A6 $19-5
+    note D7  |dim.
+    note B6 $19-6
+    note F6
+    note G6 b $19-7
+    note C7
+    note A6   $19-8
+    note E6 ~
+    note F6   $19-9
+    note B6
+    note G6   $19-10
+    note D6 ~
+    note E6 b $19-11
+    note A6
+    note F6   $19-12
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $19-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $19-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $19-3
+      note A4 d8 ]ped    $19-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $19-1 $19-2
+tie  $19-3 $19-4
+
+
+slur $19-5  $19-6
+slur $19-7  $19-8
+slur $19-9  $19-10
+slur $19-11 $19-12
+
+
+measure
+  staff
+    note C6 d32
+    note D6 b $20-5
+    note G6
+    note E6   $20-6   
+    note B5 ~
+    note C6   $20-7
+    note F6
+    note D6   $20-8
+    note A5 ~
+    note B5 b $20-9
+    note E6
+    note C6   $20-10
+    note G5 ~
+    note A5   $20-11
+    note C6
+    note B5   $20-12
+    note G5
+    note A5   $20-13
+    note B5
+    note C6   $20-14
+    note D6
+    note E6  
+    note F6
+    note G6 b
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $20-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $20-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $20-3
+      note A4 d8 ]ped    $20-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $20-1 $20-2
+tie  $20-3 $20-4
+
+slur $20-5  $20-6
+slur $20-7  $20-8
+slur $20-9  $20-10
+slur $20-11 $20-12
+
+cresc 1 0 $19-8 $20-8
+
+measure
+  staff
+    note G6 ~ d32
+    note A6       $21-5
+    note A6 ~
+    note C7 b
+    note B6
+    note C7 ~
+    note B6 ~
+    note D7
+    
+    note C7
+    note D7 ~
+    note D7 b
+    note E7
+    note D7 ~
+    note F7 b
+    note E7
+    note F7 ~
+    
+    note E7 ~
+    note G7 b
+    note F7
+    note G7 ~
+    note G7 b
+    note A7 b
+    note G7 ~
+    note B7 b  $21-6
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $21-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $21-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $21-3
+      note A4 d8 ]ped    $21-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+
+slur $21-1 $21-2
+tie  $21-3 $21-4
+
+slur $20-14 $21-5
+
+cresc 0 1 $20-10 $21-6
+
+measure
+  staff
+    note A7 d32 a.  $22-5
+    note F8
+    note E8
+    note D8
+    note F7 a.
+    note D8
+    note C8
+    note B7
+    note D7 a.
+    note B7
+    note A7
+    note G7
+    
+    note B6 a.
+    note G7
+    note F7
+    note E7
+    note G6 a.
+    note E7
+    note D7
+    note C7
+    note E6 a.
+    note C7
+    note B6
+    note A6    $22-6
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $22-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $22-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $22-3
+      note A4 d8 ]ped    $22-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+
+slur $22-1 $22-2
+tie  $22-3 $22-4
+
+cresc 1 0  $22-5 $22-6
+
+slur $19-13 $22-6
+
+
+
+
+measure
+  staff
+    chord
+      note F6 d8  $23-16
+      note A6
+    end
+    chord
+      note D7 d8.
+      note F7
+    end
+    chord
+      note G6 d16 $23-17
+      note B6
+    end
+    tuplet 3 d8/8.
+      chord
+        note C7 d16
+        note E7
+      end
+      chord
+        note A6 d16 $23-5
+        note F6 ['poco rf'
+      end
+      chord
+        note B6 d16 $23-6
+        note D7
+      end
+    end
+    tuplet 3 d8/8.
+      chord
+        note E6 d16 $23-7
+        note G6
+      end
+      chord
+        note C7 d16 $23-8
+        note A6
+      end
+      chord
+        note D6 d16 $23-9
+        note F6
+      end
+    end
+    tuplet 6 d8/8.
+      chord
+        note B6 d32 $23-10
+        note G6
+      end
+      chord
+        note C6 d32 $23-11
+        note E6
+      end
+      chord
+        note F6 d32 $23-12
+        note A6
+      end
+      chord
+        note D6 d32 $23-13
+        note B5
+      end
+      chord
+        note E6 d32 $23-14
+        note G6
+      end
+      chord
+        note A5 d32 $23-15
+        note C6
+      end
+    end
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $23-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note E5 d4.      $23-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $23-3
+      note A4 d8 ]ped    $23-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $23-1 $23-2
+tie  $23-3 $23-4
+
+slur $23-5  $23-6
+slur $23-7  $23-8
+slur $23-9  $23-10
+slur $23-11 $23-12
+slur $23-13 $23-14
+
+cresc 0 1 $23-16 $23-17
+
+
+measure
+  staff
+    chord
+      note D6 d8. $24-5
+      note F6
+    end
+    chord
+      note C6 d16 $24-6
+      note A5
+    end
+    chord
+      note D6 d16 $24-7
+      note F6
+    end
+    chord
+      note B5 d16 $24-8
+      note A5
+    end
+    
+    tuplet d8/8.
+      chord
+        note D6 d16 $24-9
+        note F6
+      end
+      chord
+        note B5 d16 $24-10
+        note G5
+      end
+      chord
+        note D6 d16 $24-11
+        note F6
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note B5 d16 $24-12
+        note G5
+      end
+      chord
+        note D6 d16 $24-13
+        note F6
+      end
+      chord
+        note B5 d16 $24-14
+        note G5
+      end
+    end
+    
+    chord
+      note E6 d16 $24-15
+      note C6
+    end
+    chord
+      note B5 d16 $24-16
+      note G5
+    end
+    
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $24-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+
+      note E5 d4.      $24-2
+    end
+    voice
+      rest d8 -
+      note A4 d4         $24-3
+      note A4 d8 ]ped    $24-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $24-1 $24-2
+tie  $24-3 $24-4
+
+slur $24-6  $24-7
+slur $24-8  $24-9
+slur $24-10 $24-11
+slur $24-12 $24-13
+slur $24-14 $24-15
+
+slur $23-15 $24-5
+slur $23-16 $24-16
+
+cresc 1 0 $24-7 $24-16
+
+
+measure
+  staff
+    tuplet d8/8.
+      chord
+        note A5 d16 |p $25-5
+        note F5
+      end
+      chord
+        note A5 ~ d16
+        note F5 #
+      end
+      chord
+        note B5  d16
+        note G5 ~
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note B5 ~ d16 |'poco cresc.'
+        note G5 #
+      end
+      chord
+        note C6 d16
+        note A5 ~
+      end
+      chord
+        note D6 d16
+        note B5 b
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note D6 ~ d16
+        note B5 ~
+      end
+      chord
+        note E6 d16
+        note C6
+      end
+      chord
+        note E6 ~ d16
+        note C6 #
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note F6 ~ d16
+        note D6 ~
+      end
+      chord
+        note F6 # d16
+        note D6 #
+      end
+      chord
+        note G6 ~ d16
+        note E6 ~
+      end
+    end
+    
+    
+    tuplet d8/8.
+      chord
+        note A6 b d16
+        note F6 ~ 
+      end
+      chord
+        note A6 ~ d16
+        note F6 #
+      end
+      chord
+        note B6 b d16
+        note G6
+      end
+    end    
+    
+    
+    tuplet d8/8.
+      chord
+        note B6 ~ d16
+        note G6 #
+      end
+      chord
+        note A6 ~ d16
+        note C7 ~
+      end
+      chord
+        note B6 b d16
+        note D7 b
+      end
+    end        
+    
+    
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $25-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $25-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $25-3
+      note A4 d8 ]ped    $25-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $25-1 $25-2
+tie  $25-3 $25-4
+
+
+slur $24-16 $25-5
+
+
+
+measure
+  staff
+    tuplet d8/8.
+      chord
+        note D7 ~ d16  $26-5
+        note B6 ~
+      end
+      chord
+        note E7 d16
+        note C7
+      end
+      chord
+        note E7 ~ d16
+        note C7 #
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note F7 d16
+        note D7
+      end
+      chord
+        note F7 # d16
+        note D7 #
+      end
+      chord
+        note G7 ~ d16
+        note E7 ~ b
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note A7 d16
+        note F7 ~
+      end
+      chord
+        note B7 b d16
+        note G7 b
+      end
+      chord
+        note A7 d16  $26-6
+        note F7
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note B7 d16 $26-7
+        note G7
+      end
+      chord
+        note A7 d16 a>  $26-8
+        note E7 b
+      end
+      chord
+        note B7 d16  $26-9
+        note G7
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note A7 d16  a> $26-10
+        note D7 b
+      end
+      chord
+        note B7 d16  $26-11
+        note G7
+      end
+      chord
+        note A7 d16  a> $26-12
+        note C7 ~
+      end
+    end
+    
+    tuplet d8/8.
+      chord
+        note B7 d16  $26-13
+        note G7
+      end
+      chord
+        note A7 d16 a> $26-14
+        note B6 b
+      end
+      chord
+        note B7 d16  $26-15
+        note G7
+      end
+    end    
+    
+  end
+  staff
+    voice
+      note D3 d8 a. |ped
+      note A4 d8         $26-1
+      chord
+        note D5 d8 ]*
+        note F5
+      end
+      chord
+        note C5 d4.      $26-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $26-3
+      note A4 d8 ]ped    $26-4
+      note A4 d4 ]*
+    end
+  end
+end
+
+slur $26-1 $26-2
+tie  $26-3 $26-4
+
+slur $26-6  $26-7
+slur $26-8  $26-9
+slur $26-10 $26-11
+slur $26-12 $26-13
+slur $26-14 $26-15
+
+slur $25-5 $26-15
+
+cresc 0 1 $26-5 $26-6
+cresc 1 0 $26-7 $26-15
+
+measure
+  staff
+    tuplet 3 d8/8.
+      chord
+        note A6 $27-5 d16 |'pp e leggierissimo'
+        note F7
+        note A7
+      end
+      note D8 d16 a. $27-6
+      rest d16
+    end
+    rest d8
+    tuplet 3 d8/8.
+      chord
+        note D8 d16 $27-7
+        note F7
+      end
+      note A6 d16 a. $27-8
+      rest d16
+    end
+    tuplet 3 d8/8.
+      chord
+        note A6 d16 $27-9
+        note G7
+      end
+      note C8 d16 a. $27-10
+      rest d16
+    end
+    tuplet 3 d8/8.
+      chord
+        note C7 d16 $27-11
+        note G7
+      end
+      note E6 d16 a. $27-12
+      rest d16
+    end
+    tuplet 3 d8/8.
+      chord
+        note G6 d16 $27-13
+        note E7
+      end
+      note B7 d16 a. $27-14
+      rest d16
+    end
+  end
+  staff
+    voice
+      note D3 d8 a.
+      note A4 d8         $27-1
+      chord
+        note D5 d8
+        note F5
+      end
+      chord
+        note E5 d4.      $27-2
+        note G5
+      end
+    end
+    voice
+      rest d8 -
+      note A4 d4         $27-3
+      note A4 d8        $27-4
+      note A4 d4 
+    end
+  end
+end
+
+slur $27-1 $27-2
+tie  $27-3 $27-4
+
+slur $27-5  $27-6
+slur $27-7  $27-8
+slur $27-9  $27-10
+slur $27-11 $27-12
+slur $27-13 $27-14
+
+cresc 0 1 $27-12 $27-14
+
+

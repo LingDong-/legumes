@@ -1,0 +1,362 @@
+title 'Moonlight Sonata' 'from Opus 27, No.2, First Movement'
+composer 'Ludwig van Beethoven'
+tempo 'Adagio sostenuto'
+instruments { 'Piano' - 'Piano'
+
+measure
+  staff G #### 2/2
+    tuplet 3 d4/4.
+      note G4 d8 ['sempre pp e senza sordini'
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+  end
+  staff F #### 2/2
+    chord
+      note C4 d1
+      note C3 d1
+    end
+  end
+end
+
+
+measure
+  staff G
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+  end
+  staff F
+    chord
+      note B3 d1
+      note B2 d1
+    end
+  end
+end
+
+
+measure
+  staff G
+    tuplet 3 d4/4.
+      note A4 d8    $3-1
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note A4 d8
+      note C5
+      note E5       $3-2
+    end
+    tuplet 3 d4/4.
+      note G4 d8    $3-3
+      note D5 ~
+      note F5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note D5
+      note F5       $3-4
+    end
+  end
+  staff F
+    chord
+      note A3 d2
+      note A2
+    end
+    chord
+      note F3 d2
+      note F2
+    end
+  end
+end
+
+slur $3-1 $3-2 
+slur $3-3 $3-4
+
+
+
+measure
+  staff G
+    tuplet 3 d4/4.
+      note G4 d8      $4-1
+      note B4 #
+      note F5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note E5
+    end
+    tuplet 3 d4/4.
+      note G4 d8
+      note C5
+      note D5 #
+    end
+    tuplet 3 d4/4.
+      note F4 d8
+      note B4
+      note D5         $4-2
+    end
+  end
+  staff
+    chord
+      note G3 d2
+      note G2
+    end
+    chord
+      note G3 d2
+      note G2
+    end
+  end
+end
+
+slur $4-1 $4-2
+
+
+measure
+  staff
+    voice
+      rest d2
+      rest d4
+      note G5 d8. |pp
+      note G5 d16
+    end
+    voice
+      tuplet 3 d4/4.
+        note E4 d8      $5-1
+        note A4
+        note C5         $5-2
+      end
+      tuplet 3 d4/4.
+        note G4 d8      $5-3
+        note C5
+        note E5         $5-4
+      end
+      tuplet 3 d4/4.
+        note G4 d8      $5-5
+        note C5
+        note E5         $5-6
+      end
+      tuplet 3 d4/4.
+        note G4 d8      $5-7
+        note C5
+        note E5         $5-8
+      end
+    end
+  end
+  staff
+    chord
+      note C4 d1
+      note G3
+      note C3
+    end
+  end
+end
+slur $5-1 $5-2
+slur $5-3 $5-4
+slur $5-5 $5-6
+slur $5-7 $5-8
+
+
+
+measure
+  staff
+    voice
+      note G5 d2.
+      note G5 d8.
+      note G5 d16
+    end
+    voice
+      tuplet 3 d4/4.
+        note G4 d8
+        note D5
+        note F5   
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note D5
+        note F5   
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note D5
+        note F5 
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note D5
+        note F5   
+      end
+    end
+  end
+  staff
+    chord
+      note B3 # d1
+      note G3
+      note B2 #
+    end
+  end
+end
+
+
+
+measure
+  staff
+    voice
+      note G5 d2   $7-0
+      note A5 d2
+    end
+    voice
+      tuplet 3 d4/4.
+        note G4 d8
+        note C5
+        note E5   
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note C5
+        note E5   
+      end
+      tuplet 3 d4/4.
+        note A4 d8
+        note C5
+        note F5 
+      end
+      tuplet 3 d4/4.
+        note A4 d8
+        note C5
+        note F5   
+      end
+    end
+  end
+  staff
+    chord
+      note C4 d2  $7-1
+      note C3
+    end
+    chord
+      note A3 d2  $7-2
+      note A2
+    end
+  end
+end
+
+slur $7-1 $7-2
+
+
+
+measure
+  staff
+    voice
+      note G5 d2
+      note F5 d4
+      note B5 d4   $8-1
+    end
+    voice
+      tuplet 3 d4/4.
+        note G4 d8
+        note B4
+        note E5   
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note B4
+        note E5   
+      end
+      tuplet 3 d4/4.
+        note A4 d8
+        note B4
+        note D5 
+      end
+      tuplet 3 d4/4.
+        note A4 d8
+        note B4
+        note D5   
+      end
+    end
+  end
+  staff
+    chord
+      note B3 d2
+      note B2
+    end
+    chord
+      note B3 d2
+      note B2
+    end
+  end
+end
+
+slur $7-0 $8-1
+
+
+
+measure
+  staff
+    voice
+      note E5 d4
+      rest    d4
+      rest    d2
+    end
+    voice
+      tuplet 3 d4/4.
+        note G4 d8
+        note B4
+        note E5   
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note B4
+        note E5   
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note B4
+        note E5 
+      end
+      tuplet 3 d4/4.
+        note G4 d8
+        note B4
+        note E5   
+      end
+    end
+  end
+  staff
+    chord
+      note E4 d1
+      note E3
+    end
+  end
+end

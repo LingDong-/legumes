@@ -1,0 +1,221 @@
+;./legc --format svg tests/txt/wanderer_first_line.txt --cue-height 0 --duration-based-spacing 0.01 --inter-note-width 2 --title-line-spacing 0 --page-width 1100 --page-margin-x 50 --page-margin-y 30 > screenshots/001.svg;
+;./legc --format svg-anim tests/txt/wanderer_first_line.txt --cue-height 0 --duration-based-spacing 0.01 --inter-note-width 2 --title-line-spacing 0 --page-width 1100 --page-margin-x 50 --page-margin-y 30 > screenshots/002.svg;
+;./legc --format svg-hand tests/txt/wanderer_first_line.txt --cue-height 0 --duration-based-spacing 0.01 --inter-note-width 2 --title-line-spacing 0 --page-width 1100 --page-margin-x 50 --page-margin-y 30 > screenshots/003.svg;
+
+instruments { 'Piano' - 'Piano'
+tempo 'Allegretto semplice.'
+
+measure
+  staff G ## 6/8
+    voice
+      note B5 d8 a> |p $1
+    end
+    voice
+      note D5 d8       $6
+    end
+  end
+  staff F ## 6/8
+    note B4 d8 a>      $3
+  end
+end
+
+measure
+  staff
+    voice
+      note A5 d8.
+      note G5 d16
+      note F5 d8
+      note F5 d4    $2
+      note B5 d8 a> $9
+    end
+    voice
+      note D5 d4.   $7
+      note D5 d4    $8
+      note D5 d8    $11
+    end
+  end
+  staff
+    voice
+      note B4 d4.    $4
+      note B4 d4     $5
+    end
+    voice
+      note A4 d8.
+      note G4 d16
+      note F4 d8
+      note F4 d4
+      note B4 d8 a>  $14
+    end
+  end
+end
+
+slur $1 $2
+tie  $3 $4
+tie  $4 $5
+tie  $6 $7
+tie  $7 $8
+
+
+measure
+  staff
+    voice
+      grace
+        note A5 d16
+        note B5
+      end
+      note A5 d8.
+      note G5 d16
+      note F5 d8
+      note F5 d4    $10
+      note D5 d16   $17
+      note E5
+    end
+    voice
+      note D5 d4.   $12
+      note D5 d4    $13
+      rest d8
+    end
+  end
+  staff
+    voice
+      note B4 d4.   $15
+      note B4 d4    $16
+      note B3 d16   $19
+      note C4 d16
+    end
+    voice
+      note A4 d8. 
+      note G4 d16
+      note F4 d8
+      note F4 d4
+    end
+  end
+end
+
+slur $9 $10
+tie  $11 $12
+tie  $12 $13
+tie  $14 $15
+tie  $15 $16
+
+
+measure
+  staff
+    voice
+      note F5 d4.    $18
+      note F5 d8.    $23
+      note A5 # d16
+      note C6
+      note D6        $32
+    end
+    voice
+      note B4 d4.
+      note A4 # d8.
+      note C5 d16
+      note E5
+      note F5
+    end
+  end
+  staff
+    voice
+      note D4 d4.   $20
+      note E4 d8.
+      note F4 d16
+      note G4 d8
+    end
+    voice
+      rest d4
+      note F3 d8    $21
+      note F3 d4.   $22
+    end
+  end
+end
+
+slur $17 $18
+slur $19 $20
+tie  $21 $22
+cresc 0 1 $23 $32
+
+
+
+measure
+  staff
+    voice
+      note C6 d8 
+      note B5 d4     $25
+      note B5 d8     $24
+      rest d8
+      note D6 d8 a>  $34
+    end
+    voice
+      note E5 d8   $33
+      note D5 d4   $26
+      note D5 d8   $27
+      rest d8
+      note F5 d8   $36
+    end
+  end
+  staff
+    voice
+      note G4 d8
+      note F4 d4   $28
+      note F4 d8   $29
+    end
+    voice
+      note B3 d4  |ped $30
+      note F3 d8
+      note B2 d8       $31
+      rest d8     ]*
+      note D5 d8  a>   $39
+    end
+  end
+end
+
+slur $23 $24
+tie  $25 $24
+tie  $26 $27
+tie  $28 $29
+slur $30 $31
+
+cresc 1 0 $33 $26
+
+
+
+
+measure
+  staff
+    voice
+      note C6 d8.
+      note B5 d16
+      note A5 d8
+      note A5 d4    $35
+      note D6 d8 a> $42
+    end
+    voice
+      note F5 d4.   $37
+      note F5 d4    $38
+      note F5 d8    $44
+    end
+  end
+  staff
+    voice
+      note D5 d4.   $40
+      note D5 d4    $41
+    end
+    voice
+      note C5 d8.
+      note B4 d16
+      note A4 d8
+      note A4 d4
+      note D5 d8 a> $46
+    end
+  end
+end
+
+slur $34 $35
+tie  $36 $37
+tie  $37 $38
+tie  $39 $40
+tie  $40 $41
+
+

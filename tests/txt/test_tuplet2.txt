@@ -1,0 +1,47 @@
+
+measure
+  staff 6/8
+    chord
+      note F6 d8
+      note A6
+    end
+    chord
+      note D7 d8.
+      note F7
+    end
+    chord
+      note G6 d16
+      note B6
+    end
+    tuplet 3 d8/8.
+      chord
+        note A6 d16
+        note C7
+      end
+      chord
+        note A6 d16
+        note F6
+      end
+      chord
+        note B6 d16
+        note D7
+      end
+    end
+    tuplet 3 d8/8.
+      chord
+        note A6 d16
+        note C7
+      end
+      chord
+        note A6 d16
+        note F6
+      end
+      chord
+        note B6 d16
+        note D7
+      end
+    end
+  end
+  staff 6/8
+  end
+end

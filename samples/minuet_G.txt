@@ -1,0 +1,479 @@
+title 'Minuet in G major' 'BWV Anh. 114'
+composer 'Christian Petzold'
+tempo Allegretto
+instruments { 'Piano' - 'Piano'
+
+measure ;1;
+  staff G # 3/4
+    note D6 d4 |p $slur_right_1_start
+    note G5 d8
+    note A5
+    note B5
+    note C6
+  end
+  staff F # 3/4
+    chord
+      note G4 d2
+      note B4
+      note D5
+    end
+    note A4 d4
+  end
+end
+
+measure
+  staff
+    note D6 d4 a. $slur_right_1_end
+    note G5 a.
+    note G5 a.
+  end
+  staff
+    note B4 d2.
+  end
+end
+slur $slur_right_1_start $slur_right_1_end ;2021-04-24 00:47;
+
+measure
+  staff
+    note E6 d4 $slur_right_2_start
+    note C6 d8
+    note D6
+    note E6
+    note F6
+  end
+  staff
+    note C5 d2.
+  end
+end
+
+measure
+  staff
+    note G6 d4 a. $slur_right_2_end
+    note G5 a.
+    note G5 a.
+  end
+  staff
+    note B4 d2.
+  end
+end
+slur $slur_right_2_start $slur_right_2_end ;2021-04-24 00:54;
+
+measure ;4;
+  staff
+    note C6 d4 $slur_right_3_start
+    note D6 d8
+    note C6
+    note B5
+    note A5
+  end
+  staff
+    note A4 d2.
+  end
+end
+
+measure
+  staff
+    note B5 d4
+    note C6 d8
+    note B5
+    note A5
+    note G5
+  end
+  staff
+    note G4 d2.
+  end
+end
+
+measure
+  staff
+    note F5 d4
+    note G5 d8
+    note A5
+    note B5
+    note G5
+  end
+  staff
+    note D5 d4
+    note B4
+    note G4
+  end
+end
+
+measure
+  staff
+    grace
+      note B5 d8 $slur_grace_1
+    end
+    note A5 d2. $slur_right_3_end
+    slur $slur_grace_1 $slur_right_3_end
+  end
+  staff
+    note D5 d4
+    note D4 d8 $slur_left_1_start
+    note C5
+    note B4
+    note A4
+  end
+end
+slur $slur_right_3_start $slur_right_3_end
+
+measure ;8;
+  staff
+    note D6 d4 $slur_right_4_start
+    note G5 d8
+    note A5
+    note B5
+    note C6
+  end
+  staff
+    note B4 d2 $slur_left_1_end
+    note A4 d4
+  end
+end
+slur $slur_left_1_start $slur_left_1_end ;2021-04-24 10:20;
+
+measure
+  staff
+    note D6 d4 a. $slur_right_4_end
+    note G5 a.
+    note G5 a.
+  end
+  staff
+    note G4 d4
+    note B4
+    note G4
+  end
+end
+slur $slur_right_4_start $slur_right_4_end
+
+measure
+  staff
+    note E6 d4 $slur_right_5_start
+    note C6 d8
+    note D6
+    note E6
+    note F6
+  end
+  staff
+    note C5 d2.
+  end
+end
+
+measure
+  staff
+    note G6 d4 a. $slur_right_5_end
+    note G5 a.
+    note G5 a.
+  end
+  staff
+    note B4 d4 $slur_left_2_start
+    note C5 d8
+    note B4
+    note A4
+    note G4
+  end
+end
+slur $slur_right_5_start $slur_right_5_end
+
+measure ;12;
+  staff
+    note C6 d4 $slur_right_6_start
+    note D6 d8
+    note C6
+    note B5
+    note A5
+  end
+  staff
+    note A4 d2 $slur_left_2_end
+    note F4 d4
+  end
+end
+slur $slur_left_2_start $slur_left_2_end
+
+measure
+  staff
+    note B5 d4
+    note C6 d8
+    note B5
+    note A5
+    note G5
+  end
+  staff
+    note G4 d2
+    note B4 d4
+  end
+end
+
+measure
+  staff
+    note A5 d4
+    note B5 d8
+    note A5
+    note G5
+    note F5
+  end
+  staff
+    note C5 d4
+    note D5
+    note D4
+  end
+end
+
+measure
+  staff
+    note G5 d2. $slur_right_6_end
+  end
+  staff
+    note G4 d2
+    note G3 d4
+  end
+  :|
+end
+slur $slur_right_6_start $slur_right_6_end ;2021-04-24 11:32;
+
+measure ;16;
+  staff
+    note B6 d4 ]mf $slur_right_7_start
+    note G6 d8
+    note A6
+    note B6
+    note G6
+  end
+  staff
+    note G4 d2.
+  end
+end
+
+measure
+  staff
+    note A6 d4
+    note D6 d8
+    note E6
+    note F6
+    note D6
+  end
+  staff
+    note F4 d2.
+  end
+end
+
+measure
+  staff
+    note G6 d4
+    note E6 d8
+    note F6
+    note G6
+    note D6
+  end
+  staff
+    note E4 d4
+    note G4
+    note E4
+  end
+end
+
+measure
+  staff
+    note C6 # d4
+    note B5 d8
+    note C6
+    note A5 d4 $slur_right_7_end
+  end
+  staff
+    note A4 d2
+    note A3 d4
+  end
+end
+slur $slur_right_7_start $slur_right_7_end ;2021-04-25 12:44;
+
+measure ;20;
+  staff
+    note A5 d8 $slur_right_8_start
+    note B5
+    note C6 #
+    note D6
+    note E6
+    note F6 $cresc_right_1_end
+  end
+  staff
+    note A4 d2.
+  end
+end
+
+measure
+  staff
+    note G6 d4 a. $slur_right_8_end
+    note F6 a.
+    note E6 a.
+  end
+  staff
+    note B4 d4 a.
+    note D5 a.
+    note C5 # a.
+  end
+end
+slur $slur_right_8_start $slur_right_8_end
+cresc 0 1 $slur_right_8_start $cresc_right_1_end
+
+measure
+  staff
+    note F6 d4 a.
+    note A5 a. $cresc_right_2_start
+    note C6 # a.
+  end
+  staff
+    note D5 d4 a.
+    note F4 a.
+    note A4 a.
+  end
+end
+
+measure
+  staff
+    note D6 d2. $cresc_right_2_end
+  end
+  staff
+    note D5 d4
+    note D4 $slur_left_3_start
+    note C5 $slur_left_3_end
+  end
+end
+slur $slur_left_3_start $slur_left_3_end
+cresc 1 0 $cresc_right_2_start $cresc_right_2_end ;2021-04-25 21:44;
+
+measure ;25;
+  staff
+    note D6 d4 |p $slur_right_9_start
+    note G5 d8
+    note F5
+    note G5 d4  $slur_right_9_end
+  end
+  staff
+    voice
+      rest d4
+      note D5 d2
+    end
+    voice
+      note B4 d2
+      note B4 d4
+    end
+  end
+end
+slur $slur_right_9_start $slur_right_9_end
+
+measure
+  staff
+    note E6 d4 $slur_right_10_start
+    note G5 d8
+    note F5
+    note G5 d4 $slur_right_10_end
+  end
+  staff
+    voice
+      rest d4
+      note E5 d2
+    end
+    voice
+      note C5 d2
+      note C5 d4
+    end
+  end
+end
+slur $slur_right_10_start $slur_right_10_end
+
+measure
+  staff
+    note D6 d4 $slur_right_11_start
+    note C6
+    note B5
+  end
+  staff
+    note B4 d4
+    note A4
+    note G4
+  end
+end
+
+measure
+  staff
+    note A5 d8 
+    note G5
+    note F5
+    note G5
+    note A5 d4 $slur_right_11_end
+  end
+  staff
+    note D5 d2
+    rest d4
+  end
+end
+slur $slur_right_11_start $slur_right_11_end ;2021-04-26 12:42;
+
+
+measure ;29;
+  staff
+    note D5 d8 $slur_right_12_start
+    note E5
+    note F5
+    note G5
+    note A5
+    note B5
+  end
+  staff
+    voice
+      rest d4
+      rest d4
+      note F4 d4
+    end
+    voice
+      note D4 d2.
+    end
+  end
+end
+
+measure
+  staff
+    note C6 d4 a. $slur_right_12_end
+    note B5 a.
+    note A5 a.
+  end
+  staff
+    note E4 d4 a.
+    note G4 a.
+    note F4 a.
+  end
+end
+slur $slur_right_12_start $slur_right_12_end
+
+measure
+  staff
+    note B5 d8 $slur_right_13_start
+    note D6
+    note G5 d4 a. $slur_right_13_end
+    note F5 a. $cresc_right_3_end
+  end
+  staff
+    note G4 d4 $slur_left_4_start
+    note B3 a. $slur_left_4_end
+    note D4 a. 
+  end
+end
+slur $slur_right_13_start $slur_right_13_end
+slur $slur_left_4_start $slur_left_4_end
+cresc 1 0 $slur_right_13_start $cresc_right_3_end
+
+measure
+  staff
+    chord
+      note G5 d2.
+      note D5
+      note B4
+    end
+  end
+  staff
+    note G4 d4 a.
+    note D4 a.
+    note G3 a.
+  end
+  :|
+end ;2021-04-26 13:00;

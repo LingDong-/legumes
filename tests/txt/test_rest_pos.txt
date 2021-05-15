@@ -1,0 +1,20 @@
+measure
+  staff
+    note D5 d8
+    note E5
+    note F5
+    note G5
+    note A5
+    note B5
+  end
+  staff F
+    voice
+      rest d4
+      rest d4
+      note F4 d4
+    end
+    voice
+      note D4 d2.
+    end
+  end
+end

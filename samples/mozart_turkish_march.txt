@@ -1,0 +1,638 @@
+title 'Rondo alla Turca' 'Sonata K.331 (3° Mvt.)' '"Turkish March"'
+composer 'W.A. MOZART'
+instruments { 'Piano' - 'Piano'
+tempo Allegretto d4 =126
+measure
+  staff G  2/4
+    note B5 d16  |p  $0
+    note A5 d16
+    note G5 # d16
+    note A5 d16
+  end
+  staff F  2/4
+    rest d4
+  end
+end
+measure
+  staff G  2/4
+    note C6 d8 a.   $1
+    rest d8
+    note D6 d16    $2
+    note C6 d16
+    note B5 d16
+    note C6 d16
+  end
+  staff F  2/4
+    note A4 d8      $4
+    chord
+      note E5 d8 a. $5
+      note C5 d8
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    slur $4 $5
+  end
+end
+slur $0 $1
+measure
+  staff G  2/4
+    note E6 d8  a. $3
+    rest d8
+    note F6 d16    $8
+    note E6 d16
+    note D6 # d16
+    note E6 d16
+  end
+  staff F  2/4
+    note A4 d8      $6
+    chord
+      note E5 d8 a. $7
+      note C5 d8
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    slur $6 $7
+  end
+end
+slur $2 $3
+measure
+  staff G  2/4
+    note B6 d16
+    note A6 d16
+    note G6 # d16
+    note A6 d16
+    note B6 d16
+    note A6 d16
+    note G6 d16
+    note A6 d16
+  end
+  staff F  2/4
+    note A4 d8 a.
+    chord
+      note E5 d8 a.
+      note C5 d8
+    end
+    note A4 d8 a.
+    chord
+      note E5 d8 a.
+      note C5 d8
+    end
+
+  end
+end
+measure
+  staff G  2/4
+    note C7 d4 a>  $9
+    note A6 d8 a.
+    note C7 d8 a.
+  end
+  staff F  2/4
+    note A4 d8   $4-1
+    chord
+      note E5 d8 a. $4-2
+      note C5 d8
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+  end
+  slur $4-1 $4-2
+end
+slur $8 $9
+measure
+  staff G  2/4
+    grace
+      note G6 d32 ~ $10
+      note A6
+    end
+    note B6 d8 a> $11
+    chord
+      note A6 a.
+      note F6 #
+    end
+    chord
+      note G6 a.
+      note E6
+    end
+    chord
+      note A6 a.
+      note F6
+    end
+    slur $10 $11
+  end
+  staff F  2/4
+    note E4 d8 a>
+    chord
+      note B4 d8
+      note E5 a.
+    end
+    chord
+      note B4 d8
+      note E5 a.
+    end
+    chord
+      note B4 d8
+      note E5 a.
+    end
+  end
+end
+measure
+  staff G  2/4
+    grace
+      note G6 d32 $12
+      note A6
+    end
+    note B6 d8 a> $13
+    chord
+      note A6 a.
+      note F6 #
+    end
+    chord
+      note G6 a.
+      note E6
+    end
+    chord
+      note A6 a.
+      note F6
+    end
+    slur $12 $13
+  end
+  staff F  2/4
+    note E4 d8 a>
+    chord
+      note B4 d8
+      note E5 a.
+    end
+    chord
+      note B4 d8
+      note E5 a.
+    end
+    chord
+      note B4 d8
+      note E5 a.
+    end
+  end
+end
+measure
+  staff G  2/4
+    grace
+      note G6 d32 $14
+      note A6
+    end
+    note B6 d8 a> $15
+    chord
+      note A6 a.
+      note F6 #
+    end
+    chord
+      note G6 a.
+      note E6
+    end
+    chord
+      note D6 # a.
+      note F6
+    end
+    slur $14 $15
+  end
+  staff F  2/4
+    note E4 d8 a>
+    chord
+      note B4 d8
+      note E5 a.
+    end
+    note B3 d8 a.
+    note B4 a.
+  end
+end
+
+measure
+  staff G  2/4
+    note E6 d4 a-
+  end
+  staff F  2/4
+    note E4 d4 a-
+  end
+  :|:
+end
+
+measure
+  staff
+    chord
+      note C6 d8 a. |mp
+      note E6
+    end
+    chord
+      note D6 ~ d8 a.
+      note F6 ~
+    end
+  end
+  staff
+    rest d4
+  end
+end
+
+measure
+  staff
+    chord
+      note E6 d8 a.
+      note G6
+    end
+    chord
+      note E6 d8 a.
+      note G6
+    end
+    note A6 d16 $9-1
+    note G6
+    note F6
+    note E6     $9-2
+    slur $9-1 $9-2
+  end
+  staff
+    note C4 d8 a.
+    note C5 a.
+    note E4 a.
+    note E5 a.
+  end
+end
+
+measure
+  staff
+    voice
+      note D6 d4 a>
+    end
+    voice
+      note B5 d8 $10-1
+      note G5    $10-2
+      slur $10-1 $10-2
+      chord
+        note C6 d8 a.
+        note E6
+      end
+      chord
+        note D6 d8 a.
+        note F6
+      end
+    end
+  end
+  staff
+    note G4 d4
+    rest d4
+  end
+end
+
+
+
+measure
+  staff
+    chord
+      note E6 d8 a.
+      note G6
+    end
+    chord
+      note E6 d8 a.
+      note G6
+    end
+    note A6 d16 $11-1
+    note G6
+    note F6
+    note E6     $11-2
+    slur $11-1 $11-2
+  end
+  staff
+    note C4 d8 a.
+    note C5 a.
+    note E4 a.
+    note E5 a.
+  end
+end
+
+measure
+  staff
+    chord
+      note B5 d4 a>
+      note D6
+    end
+    chord
+      note A5 d8 a.
+      note C6
+    end
+    chord
+      note B5 d8 a.
+      note D6
+    end
+  end
+  staff
+    note G4 d4
+    rest d4
+  end
+end
+
+
+measure
+  staff
+    chord
+      note E6 d8 a.
+      note C6
+    end
+    chord
+      note E6 d8 a.
+      note C6
+    end
+    note F6 d16 $13-1
+    note E6
+    note D6
+    note C6     $13-2
+    slur $13-1 $13-2
+  end
+  staff
+    note A3 d8 a.
+    note A4 a.
+    note C4 a.
+    note C5 a.
+  end
+end
+
+
+measure
+  staff
+    voice
+      note B5 d4 a>
+    end
+    voice
+      note G5 # d8 $14-1
+      note E5    $14-2
+      slur $14-1 $14-2
+      chord
+        note A5 d8 a.
+        note C6
+      end
+      chord
+        note B5 d8 a.
+        note D6
+      end
+    end
+  end
+  staff
+    note E4 d4
+    rest d4
+  end
+end
+
+measure
+  staff
+    chord
+      note E6 d8 a.
+      note C6
+    end
+    chord
+      note E6 d8 a.
+      note C6
+    end
+    note F6 d16 $15-1
+    note E6
+    note D6
+    note C6     $15-2
+    slur $15-1 $15-2
+  end
+  staff
+    note A3 d8 a.
+    note A4 a.
+    note C4 a.
+    note C5 a.
+  end
+end
+
+
+measure
+  staff
+    chord
+      note G5 # d4
+      note B5 a-
+    end
+    note B5 d16 |p  $a0
+    note A5 d16
+    note G5 d16
+    note A5 d16
+  end
+  staff
+    note E4 d4
+    rest d4
+  end
+end
+
+
+
+measure
+  staff G  2/4
+    note C6 d8 a.  $a1
+    rest d8
+    note D6 d16    $a2
+    note C6 d16
+    note B5 d16
+    note C6 d16
+  end
+  staff F  2/4
+    note A4 d8      $a4
+    chord
+      note E5 d8 a. $a5
+      note C5 d8
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    slur $a4 $a5
+  end
+end
+slur $a0 $a1
+
+
+
+measure
+  staff G  2/4
+    note E6 d8  a. $a3
+    rest d8
+    note F6 d16    $a8
+    note E6 d16
+    note D6 # d16
+    note E6 d16
+  end
+  staff F  2/4
+    note A4 d8      $a6
+    chord
+      note E5 d8 a. $a7
+      note C5 d8
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    chord
+      note E5 d8 a.
+      note C5
+    end
+    slur $a6 $a7
+  end
+end
+slur $a2 $a3
+measure
+  staff G  2/4
+    note B6 d16 |cresc.
+    note A6 d16
+    note G6 # d16
+    note A6 d16
+    note B6 d16
+    note A6 d16
+    note G6 d16
+    note A6 d16
+  end
+  staff F  2/4
+    note A4 d8 a.
+    chord
+      note E5 d8 a.
+      note C5 d8
+    end
+    note A4 d8 a.
+    chord
+      note E5 d8 a.
+      note C5 d8
+    end
+
+  end
+end
+
+
+
+
+
+measure
+  staff G  2/4
+    note C7 d4 a>  $a9 |f
+    note A6 d8 a. [p
+    note B6 d8 a.
+  end
+  staff F  2/4
+    note F4 d8   $a4-1
+    chord
+      note A4 d8 a. $a4-2
+      note D5 # d8
+    end
+    chord
+      note A4 d8 a.
+      note D5
+    end
+    chord
+      note A4 d8 a.
+      note D5
+    end
+  end
+  slur $a4-1 $a4-2
+end
+slur $a8 $a9
+
+measure
+  staff
+    note C7 d8 a>
+    note B6 a.
+    note A6 a.
+    note G6 # a.
+  end
+  staff
+    note E4 d8 a.
+    chord
+      note E5 d8 a.
+      note A4
+    end
+    note D4 ~ d8 a.
+    chord
+      note B4 d8 a.
+      note F4
+    end
+  end
+end
+
+measure
+  staff
+    note A6 d8 a.
+    note E6 a.
+    note F6 a.
+    note D6 a.
+  end
+  staff
+    note C4 d8 a.
+    chord
+      note E4 d8 a.
+      note A4
+    end
+    note D4 d8 a.
+    chord
+      note B4 d8 a.
+      note F4
+    end
+  end
+end
+
+
+measure
+  staff
+    note C6 d4 a-
+    note B5 d8. at $23-1
+    note A5 d32
+    note B5
+  end
+  staff
+    chord
+      note A4 d8 a.
+      note E4
+    end
+    chord
+      note A4 d8 a.
+      note E4
+    end
+    chord
+      note G4 # d8 a.
+      note E4
+    end
+    chord
+      note G4 d8 a.
+      note E4
+    end
+  end
+end
+
+
+measure
+  staff
+    note A5 d4 a-  $24-1
+  end
+  staff
+    chord
+      note A4 d4 a-
+      note A3
+    end
+  end
+  :|
+end
+
+slur $23-1 $24-1

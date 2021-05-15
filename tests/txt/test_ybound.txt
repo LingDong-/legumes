@@ -1,0 +1,54 @@
+measure
+  staff
+    note F6 d4      $11-1
+    note F6 d8. l長
+    note E6 d16 l途
+    note F6 d8  l越
+    note E6 d16 l度 $11-2
+    note F6         $11-3
+    note C6 d4  l關
+  end
+  staff
+    chord
+      note A6 d1 a> $11-4
+      note C7
+      note E7
+      note F7
+    end
+  end
+  staff G
+    chord
+      note F5 d1 a> $11-5
+      note A5
+      note C6
+      note F6
+    end
+  end
+end
+
+slur $11-2 $11-3
+
+measure
+  staff
+    note C6 d2 a? l津
+  end
+  staff
+    chord
+      note G6 d2 a? $12-1
+      note C7 
+      note E7
+    end
+  end
+  staff
+    chord
+      note G5 d2 a?   $12-2
+      note C6
+      note E6
+    end
+  end
+  :|
+end
+
+
+slur $11-4 $12-1
+slur $11-5 $12-2

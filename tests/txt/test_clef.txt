@@ -1,0 +1,9 @@
+measure
+  staff G  note C5 d2 note D5 end
+  staff F  note C5 d2 note D5 end
+  staff Cs note C5 d2 note D5 end
+  staff Cm note C5 d2 note D5 end
+  staff Ca note C5 d2 note D5 end
+  staff Ct note C5 d2 note D5 end
+  staff Cb note C5 d2 note D5 end
+end

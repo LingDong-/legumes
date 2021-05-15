@@ -1,0 +1,29 @@
+{
+  "name": "legumes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/legumes.js",
+  "scripts": {
+    "build:lib": "tsup src/main.ts --format iife --global-name legumes && (cat dist/main.global.js ; echo \";(typeof module == 'object')?(module.exports=legumes):0;\") > dist/legumes.js && rm dist/main.global.js",
+    "build:min": "tsup src/main.ts --minify --format iife --global-name legumes && (cat dist/main.global.js ; echo \";(typeof module == 'object')?(module.exports=legumes):0;\") > dist/legumes.min.js && rm dist/main.global.js",
+    "build:cli": "tsup src/cli.ts && sed -i '' \"s/sed-auto-replace-date-yyyy-mm-dd/$(date '+%Y-%m-%d')/g\" dist/cli.js && mv dist/cli.js legc && chmod +x legc",
+    "build:ide": "mkdir site; npm run build:lib && time node tools/make_editor.js",
+    "build:doc": "npx typedoc --out _docs --entryPoints src/main.ts --hideInPageTOC true --hideBreadcrumbs true; rm _docs/README.md; mv _docs/modules.md _docs/a.md; npx concat-md --decrease-title-levels _docs > API.md; rm -rf _docs; node tools/doc_const.js;",
+    "build": "npm run build:lib && npm run build:cli",
+    "samples": "npm run build:cli && cd samples && make FMT=svg EXT=svg && make FMT=svg-anim EXT=anim.svg && make FMT=svg-hand EXT=hand.svg; cd ../ && node tools/index_samples.js",
+    "syntax": "npm run build:lib; node tools/illustrate_syntax.js",
+    "test:txt": "mkdir tmp; npm run build:lib && time node --max-old-space-size=1844674407370955161 tools/test_txt.js > tmp/dump.txt",
+    "test:midi": "mkdir tmp; npm run build:lib && time node --max-old-space-size=1844674407370955161 tools/test_midi.js > tmp/dump.txt"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.41",
+    "concat-md": "^0.3.5",
+    "tsup": "^4.8.21",
+    "typedoc": "^0.20.36",
+    "typedoc-plugin-markdown": "^3.8.0",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {}
+}

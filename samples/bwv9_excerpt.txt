@@ -1,0 +1,348 @@
+; based on https://commons.wikimedia.org/wiki/File:Bach,_passage_from_Duet_aria_in_Cantata_BWV9.png ;
+
+composer 'J. S. Bach, BWV9'
+instruments 
+  [ 'Flute' - 'Oboe d\'Amore' 
+  [ 'Soprano Solo' 'Alto Solo'
+  | 'Continuo'
+measure
+  staff G ### 2/4
+    rest d4
+    note E6 d4    $46-1
+  end
+  staff G ### 2/4
+    rest d2
+  end
+  staff Cs ### 2/4
+    rest d2
+  end
+  staff Ca ### 2/4
+    rest d2
+  end
+  staff F ### 2/4
+    note A3 d8
+    note A4
+    note C5
+    note E5
+  end
+end
+
+measure
+  staff
+    note E6 d16 $47-1
+    note F6     $47-2
+    note E6
+    note D6     $47-3
+    note E6     $47-4
+    note C6
+    note B5
+    note A5     $47-5
+  end
+  staff
+    rest d4
+    note A5 d4  $47-6
+  end
+  staff
+    rest d2
+  end
+  staff
+    rest d8
+    note E5 d4   l'nur'
+    note D5 d16  l'den'
+    note C5
+  end
+  staff
+    note A4 d8
+    rest d8
+    note G4 ~ d8
+    rest d8
+    
+  end
+end
+
+tie $46-1 $47-1
+slur $47-2 $47-3
+slur $47-4 $47-5
+
+
+measure
+  staff
+    note F6 d2 $48-6
+  end
+  staff
+    note A5 d16 $48-1
+    note B5     $48-2
+    note A5     
+    note G5     $48-3
+    note A5     $48-4
+    note F5
+    note E5
+    note D5     $48-5
+  end
+  staff
+    rest d8
+    note A5 d4   l'nur'
+    note G5 d16  l'den'
+    note F5
+  end
+  staff
+    note D5 d8   l'Glau-'
+    note F5      l'ben'
+    note A5      l'nimmst'
+    note C6      l'du'
+  end
+  staff
+    note F4 d8
+    rest d8
+    note D4 d8
+    rest d8
+  end
+end
+
+tie $47-6 $48-1
+slur $48-2 $48-3
+slur $48-4 $48-5
+
+measure
+  staff
+    note F6 d16 $49-1
+    note G6     $49-2
+    note F6
+    note E6     $49-3
+    note F6     $49-4
+    note D6
+    note C6
+    note B5     $49-5
+  end
+  staff
+    note B5 d2  $49-6
+  end
+  staff
+    note G5 d8   l'Glau-'
+    note B5      l'ben'
+    note D6      l'nimmst'
+    note F6      l'du'
+  end
+  staff
+    note B5 d4 l'an,'
+    rest d8
+    note B4 d8 l'den'
+  end
+  staff
+    note G3 d8
+    rest d8
+    note G4 d8
+    rest d8
+  end
+end
+
+
+tie $48-6 $49-1
+slur $49-2 $49-3
+slur $49-4 $49-5
+
+measure
+  staff
+    note E6 d2  $50-6
+  end
+  staff
+    note B5 d16 $50-1
+    note C6     $50-2
+    note B5
+    note A5     $50-3
+    note B5     $50-4
+    note G5
+    note F5
+    note E5     $50-5
+  end
+  staff
+    note E6 d4 l'an,'
+    rest d8
+    note E5 d8 l'den'
+  end
+  staff
+    note C5 d8 l'Glau-'
+    note E5    l'ben'
+    note G5    l'nimmst'
+    note B5    l'du'
+  end
+  staff
+    note C4 d8
+    rest d8
+    note C5 d8
+    rest d8
+  end
+end
+
+tie $49-6 $50-1
+slur $50-2 $50-3
+slur $50-4 $50-5
+
+measure
+  staff
+    note E6 d16 $51-1
+    note F6     $51-2
+    note E6
+    note D6     $51-3
+    note C6     $51-4
+    note B5
+    note A5
+    note G5     $51-5
+  end
+  staff
+    note A5 d2  $51-6
+  end
+  staff
+    note F5 d8 l'Glau-'
+    note A5    l'ben'
+    note C6    l'nimmst'
+    note E6    l'du'
+  end
+  staff
+    note A5 d8 l'an,'
+    note F5 d4 l'nur'
+    note F5 d8 l'den'
+  end
+  staff
+    note F4 d8
+    rest d8
+    note F3 d8
+    rest d8
+  end
+end
+
+tie $50-6 $51-1
+slur $51-2 $51-3
+slur $51-4 $51-5
+
+measure
+  staff
+    note F5 d4
+    rest d8
+    note B6 d8 $52-6
+  end
+  staff
+    note A5 d16 $52-1
+    note B5     $52-2
+    note A5
+    note G5     $52-3
+    note F5     $52-4
+    note E5
+    note D5
+    note C5     $52-5
+  end
+  staff
+    note D6 d8 l'an,'
+    note B5 d4 l'nur'
+    note B5 d8 l'den'
+  end
+  staff
+    note F5 d8 l'Glau-'
+    note D5    l'ben'
+    note B5    l'nimmst'
+    note F5    l'du'
+  end
+  staff
+    note B3 d8 
+    rest d8    
+    note D4    
+    rest d8    
+  end
+end
+
+tie $51-6 $52-1
+slur $52-2 $52-3
+slur $52-4 $52-5
+
+measure
+  staff
+    note B6 d16 $53-1
+    note C7     $53-2
+    note B6
+    note A6     $53-3
+    note G6     $53-4
+    note F6
+    note E6
+    note D6     $53-5
+  end
+  staff
+    note B4 d4
+    rest d8
+    note E6 d8  $53-6
+  end
+  staff
+    note B5 d8 l'Glau-'
+    note G5    l'ben'
+    note E6    l'nimmst'
+    note B5    l'du'
+  end
+  staff
+    note G5 d2 l'an,'
+  end
+  staff
+    note E4 d8
+    rest d8
+    note E3 d8
+    rest d8
+  end
+end
+
+tie $52-6 $53-1
+slur $53-2 $53-3
+slur $53-4 $53-5
+
+
+measure
+  staff
+    note C6 d4
+    rest d4
+  end
+  staff
+    note E6 d16 $54-1
+    note F6     $54-2
+    note E6
+    note D6     $54-3
+    note C6     $54-4
+    note B5
+    note A5
+    note G5     $54-5
+  end
+  staff
+    note C6 d2 l'an,'
+  end
+  staff
+    rest d2
+  end
+  staff
+    note A3 d8
+    note A4
+    note B4
+    note C5
+  end
+end
+
+tie $53-6 $54-1
+slur $54-2 $54-3
+slur $54-4 $54-5
+
+measure
+  staff
+    rest d2
+  end
+  staff
+    note F5 d4
+    rest d4
+  end
+  staff
+    rest d2
+  end
+  staff
+    rest d2
+  end
+  staff
+    note D5 d8
+    note B4
+    note C5
+    note F4
+  end
+end

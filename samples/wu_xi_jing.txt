@@ -1,0 +1,461 @@
+title '無錫景' 'Views of Wu Xi'
+composer '中國民間小調 Chinese Folk Song'
+instruments { 'Piano' - 'Piano'
+tempo d4 =76 Andante
+measure
+  staff G bbb 2/4
+    note C6 d8  l我 |mp $1-1
+    note C6 d16 l有
+    note B5 d16
+    note C6 d8  l一
+    note F6 d8  l段
+  end
+  staff F bbb 2/4
+    chord
+      note F3 d4 a{
+      note C4 d4
+      note F4 d4
+      note A4 d4
+    end
+    chord
+      note C5 d4
+      note A4 d4
+      note F4 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note E6 d16 l情
+    note F6 d16
+    note E6 d16
+    note C6 d16
+    note B5 d4  l呀
+  end
+  staff F bbb 2/4
+    chord
+      note E3 d4 a{
+      note B3 d4
+      note E4 d4
+      note G4 d4
+    end
+    chord
+      note B4 d4
+      note G4 d4
+      note E4 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note C6 d8  l唱
+    note E6 d16 l撥
+    note E6 d16 l拉
+    note E6 d16 l諸
+    note C6 d16
+    note B5 d16 l公
+    note C6 d16
+  end
+  staff F bbb 2/4
+    chord
+      note C4 d4   a{
+      note G4 d4
+      note C5 d4
+      note E5 d4
+    end
+    chord
+      note G5 d4
+      note E5 d4
+      note C5 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note E6 d2   l聽    $4-1
+  end
+  staff F bbb 2/4
+    chord
+      note E4 d4 a{
+      note B4 d4
+      note E5 d4
+      note G5 d4
+    end
+    chord
+      note B5 d4
+      note G5 d4
+      note E5 d4
+    end
+  end
+end
+slur $1-1 $4-1
+
+measure
+  staff G bbb 2/4
+    note E6 d8  l諸  $5-1
+    note E6 d4  l公
+    note F6 d8      $5-2
+  end
+  staff F bbb 2/4
+    chord
+      note F4 d4 a{
+      note C5 d4
+      note F5 d4
+      note A5 d4
+    end
+    chord
+      note C6 d4
+      note A5 d4
+      note F5 d4
+    end
+  end
+end
+cresc 0 1 $5-1 $5-2
+measure
+  staff G bbb 2/4
+    note G6 d16 l各
+    note B6 d16
+    note G6 d16
+    note F6 d16
+    note G6 d8. l位
+    note F6 d16
+  end
+  staff F bbb 2/4
+    chord
+      note G4 d4 a{
+      note D5 d4
+      note G5 d4
+      note B5 d4
+    end
+    chord
+      note D6 d4
+      note B5 d4
+      note G5 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note E6 d8. l靜
+    note G6 d16 l呀
+    note F6 d16 l靜
+    note G6 d16
+    note F6 d16 l靜
+    note E6 d32
+    note E6 d32
+  end
+  staff F bbb 2/4
+    chord
+      note E4 d4 a{
+      note B4 d4
+      note E5 d4
+      note G5 d4
+    end
+    chord
+      note B5 d4
+      note G5 d4
+      note E5 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    grace
+      note E6 d8       $8-1
+    end
+    note C6 d8.  l心   $8-2
+    note E6 d16
+    note B5 d4   l呀   $8-3
+  end
+  staff F bbb 2/4
+    chord
+      note C4 d4 a{
+      note G4 d4
+      note C5 d4
+      note E5 d4
+    end
+    chord
+      note G5 d4
+      note E5 d4
+      note C5 d4
+    end
+  end
+end
+slur $5-1 $8-3
+slur $8-1 $8-2
+cresc 1 0 $8-2 $8-3
+measure
+  staff G bbb 2/4
+    note C6 d16  l讓   |p  $9-1
+    note E6 d16
+    note C6 d16  l我
+    note B5 d16
+    note G5 d4   l末    $9-2
+  end
+  staff F bbb 2/4
+    chord
+      note C4 d4 a{
+      note G4 d4
+      note C5 d4
+      note E5 d4
+    end
+    chord
+      note E5 d4
+      note C5 d4
+      note G4 d4
+    end
+  end
+end
+slur $9-1 $9-2
+measure
+  staff G bbb 2/4
+    note E6 d8   l唱  $10-1
+    note E6 d4   l一
+    note F6 d16. l支
+    note E6 d32
+  end
+  staff F bbb 2/4
+    chord
+      note F4 d4 a{
+      note C5 d4
+      note F5 d4
+      note A5 d4
+    end
+    chord
+      note C6 d4
+      note A5 d4
+      note F5 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    grace
+      note E6 d8     $11-1
+    end
+    note C6 d8. l無  $11-2
+    note E6 d16
+    note B5 d4  l錫  $11-3
+  end
+  staff F bbb 2/4
+    chord
+      note C4 d4 a{
+      note G4 d4
+      note C5 d4
+      note E5 d4
+    end
+    chord
+      note G5 d4
+      note E5 d4
+      note C5 d4
+    end
+  end
+end
+slur $11-1 $11-2
+slur $10-1 $11-3
+measure
+  staff G bbb 2/4
+    note C6 d16 l景  $12-1
+    note E6 d16
+    note C6 d16
+    note B5 d16
+    note G5 d4  l呀  $12-2
+  end
+  staff F bbb 2/4
+    chord
+      note C4 d4 a{
+      note G4 d4
+      note C5 d4
+      note E5 d4
+    end
+    chord
+      note E5 d4
+      note C5 d4
+      note G4 d4
+    end
+  end
+end
+slur $12-1 $12-2
+measure
+  staff G bbb 2/4
+    note B5 d8   l細  $13-1
+    note G5 d16  l細
+    note B5 d16
+    note C6 d8.  l那 am|
+    note E6 d16
+  end
+  staff F bbb 2/4
+    chord
+      note G3 d4 a{
+      note D4 d4
+      note G4 d4
+      note B4 d4
+    end
+    chord
+      note E5 d4
+      note C5 d4
+      note G4 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note B5 d16 l到
+    note C6 d16
+    note B5 d16 l到
+    note G5 d16
+    note F5 d4  l來   $14-1
+  end
+  staff F bbb 2/4
+    chord
+      note B3 d4 a{
+      note F4 d4
+      note B4 d4
+      note D5 d4
+    end
+    chord
+      note D5 d4
+      note B4 d4
+      note F4 d4
+    end
+  end
+end
+slur $13-1 $14-1
+measure
+  staff G bbb 2/4
+    note G5 d8  l唱    $15-1
+    note B5 d16 l撥
+    note B5 d16 l拉
+    note B5 d16 l諸
+    note C6 d16
+    note F5 d8  l公
+  end
+  staff F bbb 2/4
+    chord
+      note G3 d4 a{
+      note D4 d4
+      note G4 d4
+      note B4 d4
+    end
+    chord
+      note D5 d4
+      note B4 d4
+      note G4 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note G5 d16 l聽
+    note B5 d16
+    note G5 d16
+    note F5 d16
+    note E5 d4  l呀  $16-1
+  end
+  staff F bbb 2/4
+    chord
+      note E3 d4 a{
+      note B3 d4
+      note E4 d4
+      note G4 d4
+    end
+    chord
+      note B4 d4
+      note G4 d4
+      note E4 d4
+    end
+  end
+end
+slur $15-1 $16-1
+measure
+  staff G bbb 2/4
+    note B5 d8   l細  |mf  $17-1
+    note G5 d16  l細
+    note B5 d16
+    note C6 d8.  l那 am|
+    note E6 d16
+  end
+  staff F bbb 2/4
+    chord
+      note G3 d4 a{
+      note D4 d4
+      note G4 d4
+      note B4 d4
+    end
+    chord
+      note E5 d4
+      note C5 d4
+      note G4 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note B5 d16 l到
+    note C6 d16
+    note B5 d16 l到
+    note G5 d16
+    note F5 d4  l來    $18-1
+  end
+  staff F bbb 2/4
+    chord
+      note B3 d4 a{
+      note F4 d4
+      note B4 d4
+      note D5 d4
+    end
+    chord
+      note D5 d4
+      note B4 d4
+      note F4 d4
+    end
+  end
+end
+slur $17-1 $18-1
+measure
+  staff G bbb 2/4
+    note G6 d8   l唱  [rit. $19-1
+    note B6 d16  l撥
+    note B6 d16  l拉
+    note B6 d16  l諸
+    note C7 d16
+    note F6 d8   l公
+  end
+  staff F bbb 2/4
+    chord
+      note G4 d4 a{
+      note D5 d4
+      note G5 d4
+      note B5 d4
+    end
+    chord
+      note D6 d4
+      note B5 d4
+      note G5 d4
+    end
+  end
+end
+measure
+  staff G bbb 2/4
+    note G6 d16 l聽
+    note B6 d16
+    note G6 d16
+    note F6 d16
+    note E6 d4  l呀  a?  $20-1
+  end
+  staff F bbb 2/4
+    chord
+      note E4 d4 a{
+      note B4 d4
+      note E5 d4
+      note G5 d4
+    end
+    chord
+      note B5 d4 a?
+      note G5 d4
+      note E5 d4
+    end
+  end
+  :|
+end
+slur $19-1 $20-1

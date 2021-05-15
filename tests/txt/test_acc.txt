@@ -1,0 +1,37 @@
+title 'legumes' 'sheet music → polylines'
+measure
+  staff G 1/4
+    chord
+      note C5 # d4
+      note D5 #
+      note E5 #
+      note F5 #
+      note G5 #
+      note A5 #
+      note B5 #
+      note C6 #
+    end
+  end
+  staff F 1/4
+    chord
+      note C4 b d8
+      note D4 b
+      note E4 b
+      note F4 b
+      note G4 b
+      note A4 b
+      note B4 b
+      note C5 b
+    end
+    chord
+      note C4 ~ d8
+      note D4 ~
+      note E4 ~
+      note F4 ~
+      note G4 ~
+      note A4 ~
+      note B4 ~
+      note C5 ~
+    end
+  end
+end

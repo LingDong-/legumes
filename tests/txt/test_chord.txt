@@ -1,0 +1,11 @@
+measure
+  staff G b 4/4
+  end
+  staff F b 4/4
+    chord
+      note C5 d4.
+      note D4 d4.
+    end
+  end
+end
+

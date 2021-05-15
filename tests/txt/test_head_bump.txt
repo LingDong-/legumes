@@ -1,0 +1,17 @@
+title 'Test Head Bumping'
+measure
+  staff G 2/4
+    chord
+      voice
+        note C5 d4
+        rest d4
+      end
+      voice
+        note C5 d2
+      end
+    end
+  end
+  staff F 1/4
+    rest d2
+  end
+end

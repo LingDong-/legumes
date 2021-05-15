@@ -1,0 +1,48 @@
+measure
+  staff
+    voice
+      note A5 d4.
+      chord
+        note F5 d4.
+        note E5
+      end
+      note E5
+    end
+    voice
+      note D5 d4.
+      note D5 d4.
+    end
+  end
+  staff
+    voice
+      note B4 d4.
+      note B4 d4 
+    end
+    voice
+      note A4 d4.
+      note F4 d4
+    end
+    
+  end
+end
+
+measure
+  staff
+    voice
+      note A5 d4
+      note A5 d4
+    end
+    voice
+      note A5 d4
+      note A5 d8
+    end
+  end
+  staff
+    voice
+      note A5 d2
+    end
+    voice
+      note A5 d4
+    end
+  end
+end

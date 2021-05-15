@@ -1,0 +1,464 @@
+title '陽關三疊' 'Three Refrains of Pass Yang'
+composer '王 　 維 等 詞' '夏 一 峰 傳 譜' '王 震 亞 編 配'
+tempo 'Andante' d4 =76
+instruments 'Vocal' { 'Piano' - 'Piano'
+
+measure
+  staff G bbbb 4/4
+    rest d2
+  end
+  staff G bbbb 4/4
+    rest d2 |mf
+  end
+  staff F bbbb 4/4
+    voice
+      note E4 d8.   $1-1
+      note F4 d16
+      note A4 d8
+      note B4 d8
+    end
+    voice
+      note E3 d8.   $1-2
+      note F3 d16
+      note A3 d8
+      note B3 d8
+    end
+  end
+end
+
+
+measure
+  staff
+    rest d2
+    note F5 d8.  l渭
+    note A5 d16  l城
+    note C6 d8   l朝
+    note B5 d8   l雨
+  end
+  staff
+    rest d2
+    rest d8
+    chord
+      note A5 d8
+      note C6
+    end
+    chord
+      note A5 d4
+      note C6
+    end
+  end
+  staff
+    voice
+      note B4 d2    $2-1
+    end
+    voice
+      note B3 d8    $2-2
+      note A3 d8    $2-3
+      note B3
+      note D4
+      note F4 d8.
+      note A4 d16
+      note C5 d8
+      note B4
+    end
+  end
+end
+slur $1-1 $2-1
+slur $1-2 $2-2
+
+measure
+  staff
+    note A5 d4 l浥
+    note B5    l輕
+    note B5 d2 l塵
+  end
+  staff
+    rest d8
+    chord
+      note B5 d8
+      note D6
+    end
+    chord
+      note B5 d4
+      note D6
+    end
+    rest d8
+    chord
+      note B5 d8
+      note D6
+    end
+    chord
+      note B5 d4
+      note D6
+    end
+  end
+  staff
+    note A4 d4
+    note B4 d4
+    note B4 d2    $3-1
+  end
+end
+
+slur $2-3 $3-1
+
+measure
+  staff
+    note E6 d8. l客  $4-1
+    note F6 d16      $4-2
+    note E6 d4  l舍
+    note C6 d8  l青  $4-3
+    note E6 d8       $4-4
+    note E6 d16 l青  $4-5
+    note C6
+    note B5 d8       $4-6
+  end
+  staff
+    rest d8
+    chord
+      note C6 d8
+      note E6
+    end
+    chord
+      note C6 d4
+      note E6
+    end
+    rest d8
+    chord
+      note C6 d8
+      note E6
+    end
+    chord
+      note C6 d4
+      note E6
+    end
+  end
+  staff
+    note E5 d8.  $4-7
+    note F5 d16
+    note E5 d8
+    note E4
+    note C5
+    note E5
+    note E5 d16
+    note C5
+    note B4 d8
+  end
+end
+
+slur $4-1 $4-2
+slur $4-3 $4-4
+slur $4-5 $4-6
+
+measure
+  staff
+    note A5 d4 l柳
+    note B5    l色
+    note B5 d2 l新
+
+  end
+  staff
+    rest d8
+    chord
+      note D6 d8
+      note F6
+    end
+    chord
+      note D6 d4
+      note F6
+    end
+    rest d8
+    chord
+      note F6 d8
+      note B6
+    end
+    chord
+      note F6 d4
+      note B6
+    end
+  end
+  staff
+    note A4 d4
+    note B4
+    note B4 d2  $5-1
+  end
+
+end
+
+slur $4-7 $5-1
+
+measure
+  staff
+    note A5 d8 l勸
+    note F5    l君
+    note F5    l更
+    note F5    l盡
+    note E5 d4 l一
+    note F5    l杯
+  end
+  staff
+    note A5 d8  $6-1
+    note F5
+    note F5
+    note F5
+    note E5 d4
+    note F5
+  end
+  staff
+    rest d8
+    chord
+      note A4 d4
+      note C5
+    end
+    chord
+      note A4 d4
+      note C5
+    end
+    chord
+      note A4 d4
+      note C5
+    end
+    chord
+      note A4 d8  $6-2
+      note C5     $6-3
+    end
+  end
+end
+
+measure
+  staff
+    note F5 d2   l酒
+    note F5 d8.  l西
+    note A5 d16  l出
+    note C6 d8   l陽
+    note B5 d8   l關
+  end
+  staff
+    note F5 d2  $7-1
+    note F5 d8. $7-4
+    chord
+      note F5 d16
+      note A5
+    end
+    chord
+      note A5 d8
+      note C6
+    end
+    chord
+      note G5 d8
+      note B5
+    end
+  end
+  staff
+    chord
+      note A4 d8  $7-2
+      note C5     $7-3
+    end
+    chord
+      note A4 d8
+      note C5
+    end
+    chord
+      note A4 d4
+      note C5
+    end
+    rest d8
+    chord
+      note A4 d8
+      note C5
+    end
+    chord
+      note A4 d4
+      note C5
+    end
+  end
+end
+slur $6-1 $7-1
+tie  $6-2 $7-2
+tie  $6-3 $7-3
+
+measure
+  staff
+    note A5 d4 l無
+    note B5    l故
+    note B5 d2 l人
+  end
+  staff
+    chord
+      note F5 d4
+      note A5
+    end
+    chord
+      note F5 d4
+      note A5
+    end
+    chord
+      note F5 d2  $8-1
+      note A5
+    end
+  end
+  staff
+    rest d8
+    chord
+      note D5 d8
+      note B4
+    end
+    chord
+      note D5 d4
+      note B4
+    end
+    rest d8
+    chord
+      note A3 d8
+      note B3
+    end
+    chord
+      note A3 d4
+      note B3
+    end
+  end
+end
+
+slur $7-4 $8-1
+
+
+measure
+  staff
+    rest d1
+  end
+  staff F
+    note B4 d8. |mf $9-1
+    note A4 d16
+    note F4 d8
+    note A4
+    note A4 d2  $9-2
+  end
+  staff
+    chord
+      note B3 d4 $9-3
+      note B2
+    end
+    note F3 d4
+    chord
+      note B3 d2 $9-4
+      note B2
+    end
+  end
+end
+
+slur $9-1 $9-2
+slur $9-3 $9-4
+
+measure
+  staff
+    note F5 d8  l遄
+    note F6 d4. l行 a>
+    note F5 d8  l遄
+    note F6 d4. l行 a>  $10-1
+  end
+  staff G
+    note F4 d8       $10-2
+    note F5 d8 a>    $10-3
+    chord
+      note F5 d8 a>
+      note A5
+    end
+    chord
+      note A5 d8 a>
+      note C6
+    end
+    note F5 d8      $10-4
+    note F6 a>      $10-5
+    chord
+      note F6 d8 a>
+      note A6
+    end
+    chord
+      note A6 d8 a>
+      note C7
+    end
+  end
+  staff
+    note F3 d8  $10-6
+    note F4 a>  $10-7
+    chord
+      note F4 d8 a>
+      note A4
+    end
+    chord
+      note A4 d8 a>
+      note C5
+    end
+    note F4 d8  $10-8
+    note F5 a>  $10-9
+    chord
+      note F5 d8 a>
+      note A5
+    end
+    chord
+      note A5 d8 a>
+      note C6
+    end
+  end
+end
+
+slur $10-2 $10-3
+slur $10-4 $10-5
+slur $10-6 $10-7
+slur $10-8 $10-9
+
+measure
+  staff
+    note F6 d4      $11-1
+    note F6 d8. l長
+    note E6 d16 l途
+    note F6 d8  l越
+    note E6 d16 l度 $11-2
+    note F6         $11-3
+    note C6 d4  l關
+  end
+  staff
+    chord
+      note A6 d1 a> $11-4
+      note C7
+      note E7
+      note F7
+    end
+  end
+  staff G
+    chord
+      note F5 d1 a> $11-5
+      note A5
+      note C6
+      note F6
+    end
+  end
+end
+
+slur $10-1 $11-1
+;cresc 1 0 $10-1 $11-1;
+slur $11-2 $11-3
+
+measure
+  staff
+    note C6 d2 a? l津
+  end
+  staff
+    chord
+      note G6 d2 a? $12-1
+      note C7 
+      note E7
+    end
+  end
+  staff
+    chord
+      note G5 d2 a?   $12-2
+      note C6
+      note E6
+    end
+  end
+  :|
+end
+
+
+slur $11-4 $12-1
+slur $11-5 $12-2
