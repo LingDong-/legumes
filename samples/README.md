@@ -21,7 +21,7 @@ legc --format $(FMT) art_of_fugue.txt --inter-staff-height 50 --page-width 1600 
 
 
 ```
-legc --format $(FMT) auld_lang_syne.txt --duration-based-spacing 0.1 --inter-row-height 80 > auld_lang_syne.$(EXT)
+legc --format $(FMT) auld_lang_syne.txt --duration-based-spacing 0.12 --inter-row-height 80 > auld_lang_syne.$(EXT)
 ```
 
 ---

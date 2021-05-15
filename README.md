@@ -4,7 +4,7 @@
 
 **[Samples](./samples) | [Online Editor](https://legumes.netlify.app/) | [API](API.md) | [Syntax](SYNTAX.md)**
 
-![screenshots001.png](screenshots/000.png)
+<img src="screenshots/000.png" width="400"/>
 
 In goes a midi file or a [simple markup format](SYNTAX.md), and out comes ✨polylines✨, which can then be used for animation, plotting and various procedural drawing fun.
 
@@ -141,6 +141,6 @@ You can find more details about these interfaces in [API doc](API.md) and `src/c
 
 ----
 
-Special thanks to my friend @jiangzoi (Computational music major at CMU) and my mother (piano teacher) for advice and help on sheet music, of which I came to realize I know little as I progress with the project.
+Special thanks to my friend [@jiangzoi](https://github.com/jiangzoi) (Computational music major at CMU) and my mother (piano teacher) for advice and help on sheet music, of which I came to realize I know little as I progress with the project.
 
 Issues & Pull request are welcome.

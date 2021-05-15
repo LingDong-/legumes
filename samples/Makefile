@@ -2,7 +2,7 @@ FMT = svg
 EXT = svg
 all:
 	../legc --format $(FMT) einsamer_wanderer.txt --cue-height 0 --duration-based-spacing 0.01 --inter-note-width 2 --inter-row-height 140 > einsamer_wanderer.$(EXT)
-	../legc --format $(FMT) auld_lang_syne.txt --duration-based-spacing 0.1 --inter-row-height 80 > auld_lang_syne.$(EXT)
+	../legc --format $(FMT) auld_lang_syne.txt --duration-based-spacing 0.12 --inter-row-height 80 > auld_lang_syne.$(EXT)
 	../legc --format $(FMT) wu_xi_jing.txt --font ../tools/chinese.hf.json --lyric-scale 0.75 --duration-based-spacing 0.075 --inter-note-width 5 --beam-policy 1 > wu_xi_jing.$(EXT)
 	../legc --format $(FMT) yang_guan_san_die.txt --font ../tools/chinese.hf.json --lyric-scale 0.72 --cue-height 5 > yang_guan_san_die.$(EXT)
 	../legc --format $(FMT) mozart_turkish_march.txt --stem-length 3 --beam-max-slope 0.2 --cue-height 0 > mozart_turkish_march.$(EXT)
