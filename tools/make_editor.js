@@ -430,4 +430,4 @@ document.getElementById('compile').click();
 `;
 
 
-fs.writeFileSync("site/editor.html",html);
+fs.writeFileSync("site/index.html",html);
