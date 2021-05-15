@@ -2,7 +2,7 @@
 
 🎼 *A sheet music to polylines renderer*
 
-**[Samples](./samples) | [Online Editor]() | [API](API.md) | [Syntax](SYNTAX.md)**
+**[Samples](./samples) | [Online Editor](https://legumes.netlify.app/) | [API](API.md) | [Syntax](SYNTAX.md)**
 
 ![screenshots001.png](screenshots/000.png)
 
@@ -31,7 +31,7 @@ You can find at the bottom of this document the full score, or better yet,  **Ch
 
 ## Usage
 
-The easiest way to try out the project is by using the [Online Editor](), which supports syntax highlighting and midi playback. For more advanced usage, there're commandline and programming interfaces, described below:
+The easiest way to try out the project is by using the [Online Editor](https://legumes.netlify.app/), which supports syntax highlighting and midi playback. For more advanced usage, there're commandline and programming interfaces, described below:
 
 ### Commandline
 
