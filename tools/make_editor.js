@@ -129,7 +129,7 @@ function main(){
   menu.style = `z-index:1000;position:fixed;left:245px;top:0px;width:calc(70% - 245px);height:20px;background:black;`;
   document.body.appendChild(menu)
   menu.innerHTML = menu2html({
-    'ℹ':{
+    'L':{
       'About legumes':()=>alert(versionInfo),
       'Github':()=>{
         window.open("https://github.com/LingDong-/legumes", "_blank");
