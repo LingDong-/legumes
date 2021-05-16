@@ -27,7 +27,7 @@ function include(tag,src){
 
 function main(){
   window._G = {
-    MIDI_SPD:0.008,
+    MIDI_SPD:0.0064,
     OUT_FUNC:legumes.export_svg,
   }
 
