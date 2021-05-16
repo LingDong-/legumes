@@ -196,7 +196,20 @@ function main(){
         _G.OUT_FUNC = legumes.export_sketch_svg;
         document.getElementById('compile').click();
       },
-      '---':null,
+      '---1':null,
+      'Thinner stroke':()=>{
+        document.getElementById("out").innerHTML = 
+        document.getElementById("out").innerHTML.replace(/stroke-width="(.*?)"/g,(_,n)=>{
+          return `stroke-width="${Number(n)*2/3}"`
+        });
+      },
+      'Thicker stroke':()=>{
+        document.getElementById("out").innerHTML = 
+        document.getElementById("out").innerHTML.replace(/stroke-width="(.*?)"/g,(_,n)=>{
+          return `stroke-width="${Number(n)*1.5}"`
+        });
+      },
+      '---2':null,
       'Configure...':()=>{
         gui.open();
       }
