@@ -1,5 +1,5 @@
 title 'Rondo alla Turca' 'Sonata K.331 (3° Mvt.)' '"Turkish March"'
-composer 'W.A. MOZART'
+composer 'W. A. MOZART'
 instruments { 'Piano' - 'Piano'
 tempo Allegretto d4 =126
 measure
