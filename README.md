@@ -137,7 +137,20 @@ You can find more details about these interfaces in [API doc](API.md) and `src/c
 
 
 
-![](samples/einsamer_wanderer.svg)
+![](screenshots/004.svg)
+
+
+legumes render with several stages. You can unplug the final polylines output and write a custom renderer that interprets the computed element layout. For example, visualize the elements with `export_mock_svg` routine:
+
+```js
+let drawing = legumes.render_score(score,{compute_polylines:false});
+let svg = legumes.export_mock_svg(drawing)
+```
+
+![](screenshots/005.svg)
+
+More details can be found in `src/drawing.ts`.
+
 
 ----
 
